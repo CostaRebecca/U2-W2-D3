@@ -1,0 +1,102 @@
+@import 'reset';
+@import 'colors';
+@import 'sizes';
+
+nav {
+    display: flex;
+    align-items: center;
+    background: $bg-color;
+
+    .logo {
+        flex: 1;
+        margin: $large-size;
+    }
+
+    .navLink {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+
+        a {
+            margin: $large-size;
+            text-decoration: none;
+            color: $link-color;
+
+        }
+    }
+}
+
+#hero {
+    background-color: $bg-hero;
+    color: $text-hero;
+    padding: $medium-size;
+
+    h1,
+    .btnGroup {
+        margin: $medium-size 0;
+    }
+
+    .btnGroup {
+        button:nth-child(1) {
+            background-color: $btn1-color;
+            color: $text-hero;
+            padding: $small-size;
+            border-radius: 25px;
+        }
+
+        button:nth-child(2) {
+            background-color: $btn2-color;
+            color: $text-hero;
+            padding: $small-size;
+            border-radius: 25px;
+        }
+
+        button:nth-child(3) {
+            background-color: $btn3-color;
+            color: $text-hero;
+            padding: $small-size;
+            border-radius: 25px;
+        }
+
+
+    }
+
+    .heroFlex {
+        display: flex;
+
+        .left {
+            flex: 1;
+        }
+
+        .right {
+            flex: 1;
+        }
+    }
+}
+
+#slide {
+    margin: $medium-size;
+
+    .imgGroup {
+        display: flex;
+
+        .img1 {
+            flex: 1;
+        }
+
+        .img2 {
+            flex: 1;
+
+        }
+
+        .img3 {
+            flex: 1;
+
+        }
+
+        .img4 {
+            flex: 1;
+
+        }
+    }
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: rgb(116, 93, 109);
+}
+nav .logo {
+  flex: 1;
+  margin: 36px;
+}
+nav .navLink {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+nav .navLink a {
+  margin: 36px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#hero {
+  background-color: #640fc5;
+  color: #f4f4f4;
+  padding: 24px;
+}
+#hero h1,
+#hero .btnGroup {
+  margin: 24px 0;
+}
+#hero .btnGroup button:nth-child(1) {
+  background-color: #0e6cff;
+  color: #f4f4f4;
+  padding: 12px;
+  border-radius: 25px;
+}
+#hero .btnGroup button:nth-child(2) {
+  background-color: #ff8700;
+  color: #f4f4f4;
+  padding: 12px;
+  border-radius: 25px;
+}
+#hero .btnGroup button:nth-child(3) {
+  background-color: #4caf50;
+  color: #f4f4f4;
+  padding: 12px;
+  border-radius: 25px;
+}
+#hero .heroFlex {
+  display: flex;
+}
+#hero .heroFlex .left {
+  flex: 1;
+}
+#hero .heroFlex .right {
+  flex: 1;
+}
+
+#slide {
+  margin: 24px;
+}
+#slide .imgGroup {
+  display: flex;
+}
+#slide .imgGroup .img1 {
+  flex: 1;
+}
+#slide .imgGroup .img2 {
+  flex: 1;
+}
+#slide .imgGroup .img3 {
+  flex: 1;
+}
+#slide .imgGroup .img4 {
+  flex: 1;
+}/*# sourceMappingURL=style.css.map */
